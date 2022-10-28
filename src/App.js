@@ -1,5 +1,6 @@
 import './App.css';
 import Main from './component/main';
+import Home from './pages/home';
 import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
@@ -12,7 +13,7 @@ import {
 
 function App() {
   return (
-    <Main/>
+    <Home/>
   );
 }
 

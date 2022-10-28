@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+    background-color: #263238;
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+}
+
+#sidebar {
+    background-color: #2d3c43;
+    width: 10vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.sidebar_btn {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: solid #000;
+    border-width: 0 1px;
+    width: 70%;
+}
+
+#main_content_box {
+    display: flex;
+    height: 95%;
+}
+
+#index_box {
+    display: flex;
+    width: 100px;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #172228;
+}
+
+.line_number {
+    color: #888888;
+    font-size: 25px;
+}
+
+#content_box {
+    padding-top: 20px;
+}
+
+#content {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#console_box {
+    width: 30%;
+}
+
+.tab_box {
+    display: flex;
+    background-color: #172228;
+    height: 5%;
+}
+
+.tab {
+    width: 250px;
+    background-color: #263238;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+#console_content_box {
+    height: 95%;
+}
+
+#console {
+    padding: 20px;
+    background-color: #263238;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    width: 100%;
+    height: 95%;
+}
+
+/*body { background-color: #263238; }
+
+.nav-pills .nav-link.active {
+	background-color:#BCD8E2;
+}*/
+
+/*#headerbg {
+	background-color: #1E2A31;
+	width: 1500px;
+	height: 60px;
+}
+
+#headerfont {
+	background-color: #215776;
+	color: white;
+	text-align: center;
+	margin-left: 120px;
+	line-height: 60px;
+	font-size: 20px;
+	width: 400px;
+	height: 60px;
+}
+
+#lfmargin {
+	margin-left: 100px;
+}
+
+#homebody {
+	color: #A7A7A7;
+	margin-left: 100px;
+	font-style: bold;
+	font-size: 40px;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	background: #172228;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+}
+
+li a {
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #BCD8E2;
+	font-weight: bold;
+}
+
+li a:hover {
+	background: #333;
+	color: #fff;
+}
+
+li a.home {
+background : #333;
+color: #fff;
+}*/
