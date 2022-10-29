@@ -1,6 +1,13 @@
+import Sidebar from './sidebar';
+import Number from './number';
 
-function App() {
-
+function Main() {
+  return (
+    <div>
+      <Sidebar />
+      <Number/>
+    </div>
+  )
 }
 
-export default App;
+export default Main;

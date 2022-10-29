@@ -1,19 +1,26 @@
-import './App.css';
 import Main from './component/main';
-import Home from './pages/home';
-import React, { useEffect, useState } from 'react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
+  Routes,
   Route,
   Switch
 } from 'react-router-dom';
 
-
-
-
 function App() {
   return (
-    <Home/>
+    <div>
+      <BrowserRouter>
+        {/*<Header/>*/}
+          <Routes>
+            <Route path="/" element={<Main/>}></Route>
+            <Route path="/introduce" element={<Main/>}></Route>
+            <Route path="/vision" element={<Main/>}></Route>
+            <Route path="/plan" element={<Main/>}></Route>
+            <Route path="/goal" element={<Main/>}></Route>
+          </Routes>
+          </BrowserRouter>
+      {/*<Footer/>*/}
+    </div> 
   );
 }
 
