@@ -1,8 +1,7 @@
 import style from "../common/style.css";
 
 function Sidebar() {
-    return (
-        <div>   
+    return (   
             <div id="sidebar">
                 <div
                     className="sidebar_btn"
@@ -35,7 +34,6 @@ function Sidebar() {
                     <img src="./img/icons/dark_headset.svg" />
                 </div>
             </div>
-        </div>
     );
 }
 

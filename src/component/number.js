@@ -1,21 +1,16 @@
-import React, { useState, useEffect } from "react";
+import style from '../common/style.css';
 
 function Number() {
-    const [htmlCode, setHtmlCode] = useState('');
-
-    useEffect(() => {
-        for(var i = 1; i < window.innerHeight; i++) {
-            setHtmlCode(i);
+    const rendering = () => {
+        const result = [];
+        for(var i = 1; i < Math.round(window.innerHeight / 10); i++) {
+            result.push(<div className={style.line_number} key={i}>{i}</div>);
         }
-        console.log(window.innerHeight / 10);
-        console.log('hi2');
-    }, []);
-
+        return result; 
+    };
     return (
-        <div id="html_code">
-            {htmlCode}
-        </div>
-    ); 
+        <div id='index_box'>{rendering()}</div>
+    )
 }
 
 export default Number;

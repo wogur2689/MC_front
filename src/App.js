@@ -8,9 +8,7 @@ import {
 
 function App() {
   return (
-    <div>
       <BrowserRouter>
-        {/*<Header/>*/}
           <Routes>
             <Route path="/" element={<Main/>}></Route>
             <Route path="/introduce" element={<Main/>}></Route>
@@ -18,9 +16,8 @@ function App() {
             <Route path="/plan" element={<Main/>}></Route>
             <Route path="/goal" element={<Main/>}></Route>
           </Routes>
-          </BrowserRouter>
       {/*<Footer/>*/}
-    </div> 
+      </BrowserRouter>
   );
 }
 
