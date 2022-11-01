@@ -8,8 +8,11 @@ body {
 }
 
 #page {
-    width: 100%;
+    width: 1700px;
+    display: flex;
+    justify-content: flex-start;
 }
+
 
 #sidebar {
     background-color: #2d3c43;
@@ -30,7 +33,10 @@ body {
 main {
     border: solid #000;
     border-width: 0 1px;
-    width: 70%;
+    width: 80%;
+    display: flex;
+    margin-left: 10vh;
+    flex-direction: column;
 }
 
 #main_content_box {
@@ -71,11 +77,11 @@ main {
 .tab_box {
     display: flex;
     background-color: #172228;
-    height: 5%;
+    height: 10%;
 }
 
 .tab {
-    width: 250px;
+    width: 200px;
     background-color: #263238;
     display: flex;
     padding: 0px 20px;
