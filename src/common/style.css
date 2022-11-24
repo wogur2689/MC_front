@@ -12,46 +12,9 @@ body {
     justify-content: flex-start;
 }
 
-
-
 main {
     text-align: center;
-
     height: 100vh;
     flex-direction: column;
     padding: 100px 0;
-}
-
-
-
-
-#content_box {
-    padding-top: 20px;
-}
-
-#content {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 150%;
-}
-
-#main_text {
-    color: #353535;
-    font-size: 128px;
-    font-style: bold;
-    padding : 100px 0;
-}
-
-#m {    
-    color: #6DD918;
-    font-size: 128px;
-    font-style: bold;
-}
-
-#c {    
-    color: #01CACA;
-    font-size: 128px;
-    font-style: bold;
 }
