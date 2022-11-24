@@ -1,18 +1,16 @@
 #main_text {
     color: #353535;
     font-size: 128px;
-    font-style: bold;
+    font-weight: bold;
     padding : 100px 0;
 }
 
 #m {    
     color: #6DD918;
     font-size: 128px;
-    font-style: bold;
 }
 
 #c {    
     color: #01CACA;
     font-size: 128px;
-    font-style: bold;
 }
