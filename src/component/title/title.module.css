@@ -1,18 +1,39 @@
-#main_text {
-    color: #353535;
-    font-size: 128px;
-    font-style: bold;
-    padding : 100px 0;
+/* PC */
+@media screen and (min-width: 768px){
+    #main_text {
+        color: #353535;
+        font-size: 128px;
+        font-style: bold;
+        padding : 100px 0;
+    }
+    
+    #m {    
+        color: #6DD918;
+        font-size: 128px;
+    }
+    
+    #c {    
+        color: #01CACA;
+        font-size: 128px;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 768px){
+    #main_text {
+        color: #353535;
+        font-size: 60px;
+        font-style: bold;
+        padding : 100px 0;
+    }
+    
+    #m {    
+        color: #6DD918;
+        font-size: 60px;
+    }
+    
+    #c {    
+        color: #01CACA;
+        font-size: 60px;
+    }
 }
 
-#m {    
-    color: #6DD918;
-    font-size: 128px;
-    font-style: bold;
-}
-
-#c {    
-    color: #01CACA;
-    font-size: 128px;
-    font-style: bold;
-}
