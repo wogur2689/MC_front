@@ -1,13 +1,13 @@
 import style from '../common/style.css';
 import reset from '../common/reset.css';
 import Title from './title/title';
+import Classrule from './classrule/classrule';
 
 function Main() {
   return (
-    <div id='page'>
-        <main>
+    <div>
           <Title/>
-        </main>
+          <Classrule/>
     </div>
   )
 }

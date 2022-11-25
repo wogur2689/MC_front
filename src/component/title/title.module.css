@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+#main_align {
+    justify-content: center;
+   display: flex;
+
+}
+
 #main_text {
     color: #353535;
     font-size: 128px;
@@ -15,7 +20,7 @@
     color: #01CACA;
     font-size: 128px;
 }
-=======
+
 /* PC */
 @media screen and (min-width: 768px){
     #main_text {
@@ -55,4 +60,3 @@
     }
 }
 
->>>>>>> 4a448f58664c91b19ec9ff42c759eb20cabd6a63
