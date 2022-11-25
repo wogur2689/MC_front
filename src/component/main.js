@@ -1,11 +1,13 @@
 import style from '../common/style.css';
+import Classrule from './classrule/classrule';
 import Title from './title/title';
 
 function Main() {
   return (
-    <div id='page'>
+    <div>
         <main>
-          <Title/>
+          <Title/> 
+            <Classrule/>  
         </main>
     </div>
   )
