@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main_text {
     color: #353535;
     font-size: 128px;
@@ -14,3 +15,44 @@
     color: #01CACA;
     font-size: 128px;
 }
+=======
+/* PC */
+@media screen and (min-width: 768px){
+    #main_text {
+        color: #353535;
+        font-size: 128px;
+        font-style: bold;
+        padding : 100px 0;
+    }
+    
+    #m {    
+        color: #6DD918;
+        font-size: 128px;
+    }
+    
+    #c {    
+        color: #01CACA;
+        font-size: 128px;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 768px){
+    #main_text {
+        color: #353535;
+        font-size: 60px;
+        font-style: bold;
+        padding : 100px 0;
+    }
+    
+    #m {    
+        color: #6DD918;
+        font-size: 60px;
+    }
+    
+    #c {    
+        color: #01CACA;
+        font-size: 60px;
+    }
+}
+
+>>>>>>> 4a448f58664c91b19ec9ff42c759eb20cabd6a63
