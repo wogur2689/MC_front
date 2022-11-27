@@ -7,7 +7,7 @@ import trend from './img/trend.png';
 function Classrule() { 
     return (
       <div id={style.align}>
-        <div >
+        <div>
             <div id={style.ruletext}>모임 규칙</div>
             <div id={style.content}>
                 <img src={star}></img> 매달 첫째주, 같이 목표 정하기!
