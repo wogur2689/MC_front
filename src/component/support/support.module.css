@@ -1,6 +1,35 @@
-#align {
-    display: flex;
+#align, .formBox  {
     justify-content: center;
+}
+
+#align, .formBox, .supportBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputBox, .supportBtn, .inquiryBtn {
+    padding: 12px 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#align, .formBox, .supportBox {
+    gap: 10px;
+}
+
+.inputBox {
+    width: 230px;
+}
+
+.supportBtn {
+    color: white;
+    width: 75px;
+    background: #1E1E1E;
+}
+
+.inquiryBtn {
+    width: 100px;
+    background-color: white;
 }
 
 /*position: relative;

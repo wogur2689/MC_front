@@ -6,7 +6,7 @@ import style from './support.module.css';
  *  이름, 이메일, 전화번호
  */
 export const InputBox = ({name, placeholder}) => {
-    return <input type="text" name={name} className='' placeholder={placeholder}></input>
+    return <input type="text" name={name} className={style.inputBox} placeholder={placeholder}></input>
 }
 
 /* 지원하기 */
@@ -58,7 +58,7 @@ function Support() {
 
     return (
         <div id={style.align}>
-            <form onSubmit={(e) => {
+            <form className={style.formBox} onSubmit={(e) => {
                 e.preventDefault();
                 postPing();}
                 }>
@@ -66,7 +66,10 @@ function Support() {
                 <InputBox name='email' placeholder='이메일'></InputBox>
                 <InputBox name='phone' placeholder='전화번호'></InputBox>
             </form>
-            <button type="submit">지원하기</button>
+            <div className={style.supportBox}>
+                <button className={style.supportBtn} type="submit">지원</button>
+                <button className={style.inquiryBtn} type="submit">1:1 문의</button>
+            </div>
         </div>
     );
 }
