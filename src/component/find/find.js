@@ -7,34 +7,54 @@ import d from './img/d.png';
 import e from './img/e.png';
 import f from './img/f.png';
 
+const FIND_DATA = [
+  {
+    img: a,
+    contents: "일주일에 2시간 투자",
+  },
+  {
+    img: b,
+    contents: "온라인 모임 추구",
+  },
+  {
+    img: c,
+    contents: "결과보다는 과정을 추구",
+  },
+  {
+    img: d,
+    contents: "다양한 코딩 프로젝트를 경험",
+  },
+  {
+    img: e,
+    contents: "여러 분야 사람과 협업",
+  },
+  {
+    img: f,
+    contents: "다양한 개발툴 경험",
+  },
+];
+
 /**
  * 조건
  */
 export const Content = ({imgSrc, children}) => {
     return <div className={style.content}>
-        <img className={style.img} src={imgSrc} alt='아이콘'/>
-        <span className={style.text}>&nbsp;{children}</span>
+        <img src={imgSrc} alt='아이콘'/>
+        <span>&nbsp;{children}</span>
         </div>
 }
 
 function Find() {
-    return (
-        <div id={style.align}>
-            <div>
-                <div id={style.findtext}>저희는 이런 분을 찾고 있어요!</div>
-                <div id={style.margin}>
-                    <Content imgSrc={a}>일주일에 2시간 투자</Content>
-                    <Content imgSrc={b}>오프라인 보다 온라인 만남</Content>
-                    <Content imgSrc={c}>결과보다는 과정을 추구</Content>
-                </div>
-                <div id={style.margin}>
-                    <Content imgSrc={d}>다양한 코딩 프로젝트를 경험</Content>
-                    <Content imgSrc={e}>여러 분야 사람과 협업</Content>
-                    <Content imgSrc={f}>다양한 개발툴 경험</Content>
-                </div>   
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <h2>저희는 이런 분을 찾고 있어요!</h2>
+      <div className={style.find_contents}>
+        {FIND_DATA.map((data) => {
+          return <Content imgSrc={data.img}>{data.contents}</Content>;
+        })}
+      </div>
+    </div>
+  );
 }
 
 export default Find;
