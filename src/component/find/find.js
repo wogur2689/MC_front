@@ -46,7 +46,7 @@ export const Content = ({imgSrc, children}) => {
 
 function Find() {
   return (
-    <div>
+    <div className={style.container}>
       <h2>저희는 이런 분을 찾고 있어요!</h2>
       <div className={style.find_contents}>
         {FIND_DATA.map((data) => {

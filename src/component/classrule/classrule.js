@@ -31,13 +31,18 @@ const CLASSRULE_DATA = [
 
 function Classrule() { 
     return (
-      <div className={style.align}>
-            <h2>모임규칙</h2>
-            {CLASSRULE_DATA.map((data) => {
-                return (
-                    <div><img src={data.img} alt={data.alt} />{data.contents}</div>
-                )
-            })}
+      <div className={style.container}>
+        <h2>모임규칙</h2>
+        <div className={style.contents}>
+          {CLASSRULE_DATA.map((data) => {
+            return (
+              <div>
+                <img src={data.img} alt={data.alt} />
+                {data.contents}
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
 }

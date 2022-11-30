@@ -18,7 +18,7 @@ const KEYWORD_DATA = [
 
 function Keyword() {
   return (
-    <div className={style.keyword_container}>
+    <div className={style.container}>
       <h2>모임 키워드</h2>
       <div className={style.keyword_box}>
       {KEYWORD_DATA.map((data) => {

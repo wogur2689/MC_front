@@ -5,8 +5,5 @@
 }
 /*main이 가지고 있는 컴포넌트*/
 .main {
-  max-width: 900px;
-}
-
-.main div:first-child {
+  max-width: 920px;
 }

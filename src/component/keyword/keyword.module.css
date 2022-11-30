@@ -1,7 +1,6 @@
-.keyword_container {
-  max-width: 900px;
+.container {
+  margin-bottom: 150px;
 }
-
 .keyword_box {
   display: flex;
   flex-wrap: wrap;

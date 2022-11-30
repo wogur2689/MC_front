@@ -57,7 +57,9 @@ function Support() {
     /* api 통신 방화벽 설정(진행중) */
 
     return (
-        <div id={style.align}>
+        <div className={style.container}>
+            <h2>지원하기</h2>
+            <div className={style.contents}>
             <form className={style.formBox} onSubmit={(e) => {
                 e.preventDefault();
                 postPing();}
@@ -69,6 +71,7 @@ function Support() {
             <div className={style.supportBox}>
                 <button className={style.supportBtn} type="submit">지원</button>
                 <button className={style.inquiryBtn} type="submit">1:1 문의</button>
+            </div>
             </div>
         </div>
     );

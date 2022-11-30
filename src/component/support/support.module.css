@@ -1,8 +1,7 @@
-#align, .formBox  {
-    justify-content: center;
+.container {
+    margin-bottom: 160px;
 }
-
-#align, .formBox, .supportBox {
+.contents, .formBox, .supportBox {
     display: flex;
     flex-wrap: wrap;
 }
@@ -13,12 +12,12 @@
     border-radius: 10px;
 }
 
-#align, .formBox, .supportBox {
+.contents, .formBox, .supportBox {
     gap: 10px;
 }
 
 .inputBox {
-    width: 230px;
+    width: 200px;
 }
 
 .supportBtn {
@@ -31,9 +30,3 @@
     width: 100px;
     background-color: white;
 }
-
-/*position: relative;
-width: 1600px;
-height: 400px;
-
-background: #FFFFFF;*/

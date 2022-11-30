@@ -1,11 +1,15 @@
+.container {
+    margin-bottom: 70px;
+  }
 
-/* #ruletext {
-    margin: 20px 0px 30px 0px;
-    font-weight: bold;
-    font-size: 32px;
-}
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-#content {
-    margin: 20px 0px 20px 0px;
-    font-size: 24px;
-} */
+  .contents div {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }

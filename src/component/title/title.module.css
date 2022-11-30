@@ -4,7 +4,9 @@
     align-items: center;
     width: 500px;
     position: relative;
-    margin: 230px 0 300px 0;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 340px;
 }
 
 #main_title p {
