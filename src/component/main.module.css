@@ -1,5 +1,12 @@
-.main {
+/*전체 main 중앙정렬*/
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+/*main이 가지고 있는 컴포넌트*/
+.main {
+  max-width: 900px;
+}
+
+.main div:first-child {
 }
