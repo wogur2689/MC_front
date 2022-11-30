@@ -1,0 +1,25 @@
+.keyword_container {
+  max-width: 900px;
+}
+
+.keyword_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.keyword {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 1px solid #1E1E1E;
+  border-radius: 15px;
+}
+
+.keyword p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
