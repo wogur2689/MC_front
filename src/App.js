@@ -8,7 +8,7 @@ export const Mobile = ({ children }) => {
   const isMobile = useMediaQuery({
     query: "(max-width:768px)"
   });
-  console.log('mobile');
+  console.log('mobile'); 
   return <>{isMobile && children}</>
 }
 

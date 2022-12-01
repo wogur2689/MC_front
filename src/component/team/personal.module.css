@@ -1,0 +1,30 @@
+.container {
+    margin-bottom: 10px;
+  }
+
+.personal_box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 178px;
+    height: 209px;
+    border: 1px solid #F7F7F7;
+    border-radius: 15px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.major {
+    font-size: 14px;
+}
+
+.stack {
+    box-sizing: border-box;
+    border: 1px solid #1E1E1E;
+    border-radius: 15px;
+}

@@ -4,6 +4,7 @@ import Classrule from './classrule/classrule';
 import Find from './find/find';
 import Support from './support/support';
 import Keyword from './keyword/keyword';
+import Team from './team/team';
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
         <Classrule />
         <Find />
         <Support />
+        <Team />
       </div>
     </div>
   );
