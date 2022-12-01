@@ -1,0 +1,58 @@
+.container {
+    margin-bottom: 10px;
+  }
+
+.introduce_box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 178px;
+    height: 209px;
+    border: 1px solid #F7F7F7;
+    border-radius: 15px;
+}
+
+/* 이름 */
+.names {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0 2px 0;
+}
+
+/* 전공 */
+.major {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* 주요스택 박스 CSS */
+.personal_box {
+     box-sizing: border-box;
+     border: 1px solid #000;
+     padding: 2px 8px 2px 8px;
+     border-radius: 7px;
+     background-color: #fff;
+}
+
+/* div CSS */
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px
+}
+
+.div p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
