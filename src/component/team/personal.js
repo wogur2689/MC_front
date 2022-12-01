@@ -1,41 +1,50 @@
 import style from './personal.module.css';
 
-const HANSOL_DATA = [
-    
-    {   
-        id : 1,
-        contents : "JS"
+const INTRODUCE_DATA = [
+    {
+        name: "정한솔",
+        job: "Android-Native",
+        stack: ["java","u"]
     },
-    {   
-        id : 2,
-        contents : "Kotlin"
+    {
+        name: "현초은",
+        job: "Backend",
+        stack: ["java","u"]
     },
-    {   
-        id : 3,
-        contents : "Java"
+    {
+        name: "길재혁",
+        job: "Full-Stack",
+        stack: ["java","u"]
     },
-    {   
-        id : 4,
-        contents : "React"
+    {
+        name: "김서우",
+        job: "Web-Frontend",
+        stack: ["java","u"]
     },
-    {   
-        id : 5,
-        contents : "Git"
-    }
+    {
+        name: "문상현",
+        job: "Android-Native",
+        stack: ["java","u"]
+    },
+    {
+        name: "나강민",
+        job: "치어리더",
+        stack: ["java","u"]
+    },
+    {
+        name: "정민서",
+        job: "디자이너",
+        stack: ["java","u"]
+    },
 ]
 
 
 function Personal() {
     return(
-        <div className={style.container}>
-            <h2>팀원 소개</h2>
-            <div className={style.personal_box}>
-                <p className={style.name}>정한솔</p>
-                <p calssName={style.major}>Android_Native</p>
-                <div><p>주요 스택</p></div>
-                <div>
-                </div>
-            </div>
+        <div className={style.introduce_box}>
+            {INTRODUCE_DATA.map((data) => {
+                return <div><p>{data.name}</p></div>
+            })}
         </div>
     );
 }
