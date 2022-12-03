@@ -58,23 +58,23 @@ export const Confirm = (props) => {
     const okPropsFunction = () => {
         if(okfun != null){
             close();
-            return true;
+            return okfun;
         }
         else {
             close();
-            return false;
         }
+        return;
     }
 
     const noPropsFunction = () => {
         if(nofun != null){
             close();
-            return true;
+            return nofun;
         }
         else {
             close();
-            return false;
         }
+        return;
     }
 
     return (
