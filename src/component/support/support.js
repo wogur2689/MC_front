@@ -41,7 +41,6 @@ function Support() {
         return res;
     };
     /* 코드에 따른 반환형식 추가(진행중) */
-    /* api 통신 방화벽 설정(진행중) */
 
     return (
         <div className={style.container}>
