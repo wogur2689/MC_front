@@ -1,4 +1,10 @@
+.container {
+    margin-bottom: 160px;
+}
+
 .introduce_box {
     display: flex;
     gap: 10px;
+    overflow: auto;
+    white-space: nowrap;
 }

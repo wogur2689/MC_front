@@ -13,12 +13,13 @@ function Main() {
       <div className={style.main}>
         <Title />
         <Keyword />
-        <Classrule />
-        <Find />
-        <Support />
         <div>
             <Team />
         </div>
+        <Classrule />
+        <Find />
+        <Support />
+        
 
       </div>
     </div>
