@@ -9,6 +9,7 @@ function Support() {
     const inputname = useRef();
     const inputemail = useRef();
     const inputphone = useRef();
+    const url = "https://open.kakao.com/o/skcTR2Ve"
 
     const [modalConfirmOpen, setModalConfirmOpen] = useState(false); //팝업
     const [modalAlertOpen, setModalAlertOpen] = useState(false); //팝업
@@ -73,7 +74,8 @@ function Support() {
                         <button className={style.supportBtn} type="button" onClick={openConfirm}>지원</button>
                         <Confirm open={modalConfirmOpen} close={closeConfirm}>지원하시겠습니까?</Confirm>
                     </React.Fragment>
-                        <button className={style.inquiryBtn} type="submit">1:1 문의</button>
+                        
+                        <button className={style.inquiryBtn} type="submit" onClick={()=>{window.open(url)}}>1:1 문의</button>
                 </div>
                 <React.Fragment> 
                     <Alert open={modalAlertOpen} close={alertClose}>{msg}</Alert>
