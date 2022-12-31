@@ -4,7 +4,7 @@
 
 .introduce_box {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     overflow: auto;
     white-space: nowrap;
 }
