@@ -14,7 +14,7 @@ function Team() {
         <div className={style.container}>
             <h2>팀원 소개</h2>
                 <div className={style.introduce_box}>
-                    <Choeun/><Hansol/><Jaehyck/><Kangmin/><Sanghyun/><Seowoo/><Minseo/>
+                    <Seowoo/><Choeun/><Jaehyck/><Hansol/><Sanghyun/><Kangmin/><Minseo/>
                 </div>
         </div>
     );
