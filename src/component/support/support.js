@@ -53,6 +53,9 @@ function Support() {
             }
         }).catch(error => {
             console.log(error);
+            setCode("9999")
+            setMsg("네트워크가 원활하지 않습니다.");
+            alertHandler();
         });
     };
     
