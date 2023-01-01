@@ -3,8 +3,6 @@
   }
 
 .introduce_box {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #F7F7F7;
     box-sizing: border-box;
     padding-left: 15px;
