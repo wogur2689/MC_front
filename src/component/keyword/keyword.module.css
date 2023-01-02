@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 150px;
+  margin-bottom: 12.5rem;
 }
 .keyword_box {
   display: flex;
@@ -16,9 +16,19 @@
 
 .keyword p {
   margin: 0;
+  font-size: 1.125rem ;
 }
 
-h2 {
-  font-size: 28px;
+.container h2 {
+  font-size: 2rem;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 48rem){
+  .container  h2 {
+    font-size: 1.7rem;
+  }
+  .keyword p {
+    font-size:0.875rem;
+  }
 }

@@ -1,19 +1,22 @@
 .container {
-    margin-bottom: 160px;
+    margin-bottom: 12.5rem;
 }
-.contents, .formBox, .supportBox {
+.formBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.supportBox {
+    display: flex;
+    gap: 10px;
 }
 
 .inputBox, .supportBtn, .inquiryBtn {
     padding: 12px 15px;
     border: 1px solid #000000;
     border-radius: 10px;
-}
-
-.contents, .formBox, .supportBox {
-    gap: 10px;
 }
 
 .inputBox {
@@ -30,3 +33,16 @@
     width: 100px;
     background-color: white;
 }
+
+@media screen and (max-width: 48rem) {
+    .formBox {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .supportBox{
+        width: 100%;
+        max-width: 232px;
+        justify-content: space-between;
+    }
+  }

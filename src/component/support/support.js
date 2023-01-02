@@ -73,15 +73,11 @@ function Support() {
                 <input type="text" name="email" placeholder="이메일" className={style.inputBox} ref={inputemail}/>
                 <input type="text" name="phone" placeholder="전화번호" className={style.inputBox} ref={inputphone}/>
                 <div className={style.supportBox}>
-                    <React.Fragment>
                         <button className={style.supportBtn} type="button" onClick={openConfirm}>지원</button>
                         <Confirm open={modalConfirmOpen} close={closeConfirm}>지원하시겠습니까?</Confirm>
-                    </React.Fragment>
                         <button className={style.inquiryBtn} type="button" onClick={()=>{window.open(url)}}>1:1 문의</button>
                 </div>
-                <React.Fragment> 
                     <Alert open={modalAlertOpen} close={alertClose}>{msg}</Alert>
-                </React.Fragment>
             </form>
             </div>
         </div>

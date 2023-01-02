@@ -9,7 +9,6 @@ function Title() {
             <br />
             <span>C</span>oding
           </p>
-          <div className={style.textPoint} />
         </div>
     );
 }
